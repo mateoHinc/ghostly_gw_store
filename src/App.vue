@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <h1>Ghostly GW Store Clothes</h1>
+</template>
 
 <script></script>
 
