@@ -1,7 +1,9 @@
 <template>
-  <h1>Ghostly GW Store Clothes</h1>
+  <Navbar />
 </template>
 
-<script></script>
+<script setup>
+import Navbar from "./components/Navbar.vue";
+</script>
 
 <style lang="scss"></style>
