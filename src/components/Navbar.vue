@@ -6,7 +6,7 @@
         class="d-flex align-items-center gap-2 text-uppercase navbar-brand fw-bold"
       >
         <i class="text-info bi bi-lightning-charge-fill"></i>
-        <span class="brand-title fs-3">Ghostly GW Store Clothes</span>
+        <span class="brand-title fs-3">Ghost Warriors Clothes</span>
       </a>
       <button
         class="navbar-toggler"
@@ -31,7 +31,7 @@
           </li>
           <li class="nav-item">
             <a
-              href="#about"
+              href="#aboutUs"
               class="nav-link"
               :class="theme === 'dark' ? 'text-white-50' : 'text-dark'"
               >About Us</a
