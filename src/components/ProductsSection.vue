@@ -29,6 +29,15 @@
         />
       </div>
     </div>
+
+    <div class="mt-4 text-center">
+      <a
+        href="#contacto"
+        class="btn"
+        :class="theme === 'dark' ? 'btn-outline-light' : 'btn-outline-dark'"
+        >View complete catalog</a
+      >
+    </div>
   </section>
 </template>
 
