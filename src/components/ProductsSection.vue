@@ -22,14 +22,32 @@
 
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4" v-for="p in filtered" :key="p.id">
-        <h3>Product Card</h3>
+        <ProductCard
+          :theme="theme"
+          :product="p"
+          @add-to-cart="$emit('add-to-cart', p)"
+        />
       </div>
     </div>
   </section>
 </template>
 
-<script>
-export default {};
+<script setup>
+import { computed } from "vue";
+import ProductCard from "./ProductCard.vue";
+
+const props = defineProps({
+  theme: String,
+  categories: Array,
+  selectedCategory: String,
+  products: Array,
+});
+
+const filtered = computed(() => {
+  return props.selectedCategory === "All"
+    ? props.products
+    : props.products.filter((p) => p.category === props.selectedCategory);
+});
 </script>
 
 <style></style>
