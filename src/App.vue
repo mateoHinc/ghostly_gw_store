@@ -1,6 +1,11 @@
 <template>
   <div>
-    <Navbar />
+    <Navbar
+      :theme="theme"
+      :cart-count="cartCount"
+      @toggle-theme="toggleTheme"
+      @open-cart="showCartToast"
+    />
     <Hero :theme="theme" />
     <ProductsSection
       :theme="theme"
@@ -12,17 +17,22 @@
     />
     <About :theme="theme" />
     <Newsletter :theme="theme" v-model:email="email" @subscribe="subscribe" />
+    <Contact :theme="theme" />
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
 import { productsData } from "./data/datas.js";
+import { useTheme } from "./composables/useTheme.js";
 import Hero from "./components/Hero.vue";
 import Navbar from "./components/Navbar.vue";
 import ProductsSection from "./components/ProductsSection.vue";
 import About from "./components/About.vue";
 import Newsletter from "./components/Newsletter.vue";
+import Contact from "./components/Contact.vue";
+
+const { theme, toggleTheme } = useTheme();
 
 const cartCount = ref(0);
 const email = ref("");
