@@ -28,7 +28,7 @@
 html, body {
     background: var(--pkr-bg);
     color: var(--pkr-text);
-    font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
     transition:background .3s, color .3s;
 }
 
@@ -121,7 +121,7 @@ html, body {
 }
 
 .glow {
-    text-shadow: 0 0 12px rgba(34, 211, 238, .45)
+    text-shadow: 0 0 12px #20ca2e
 }
 
 .footer {
