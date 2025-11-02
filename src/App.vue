@@ -10,6 +10,7 @@
       @update-category="selectedCategory = $event"
       @add-to-cart="addToCart"
     />
+    <About :theme="theme" />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import { productsData } from "./data/datas.js";
 import Hero from "./components/Hero.vue";
 import Navbar from "./components/Navbar.vue";
 import ProductsSection from "./components/ProductsSection.vue";
+import About from "./components/About.vue";
 
 const cartCount = ref(0);
 const email = ref("");
