@@ -15,7 +15,7 @@
             runs, and your most creative lines.
           </p>
           <div class="d-flex gap-3 mt-3">
-            <a href="#products" class="text-dark btn btn-info btn-lg fw-bold">
+            <a href="#products" class="text-dark btn btn-gw btn-lg fw-bold">
               <i class="bi bi-compass">Explore</i>
             </a>
             <a
@@ -28,7 +28,7 @@
               "
             >
               <i class="bi bi-lightning"></i>
-              Why Ghostly_GW Clothes?
+              Why Ghostly.GW Clothes?
             </a>
           </div>
         </div>

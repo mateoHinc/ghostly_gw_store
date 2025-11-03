@@ -20,7 +20,7 @@
               class="bg-themed form-control form-control-lg"
               placeholder="yyyyy@email.com"
             />
-            <button class="text-dark btn btn-info btn-lg fw-bold">Join</button>
+            <button class="text-dark btn btn-gw btn-lg fw-bold">Join</button>
           </form>
         </div>
       </div>

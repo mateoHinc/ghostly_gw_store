@@ -11,6 +11,7 @@
     --pkr-navbar-grad: linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.15));
     --pkr-hero-overlay: linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.65));
     --pkr-input-bg: #3b403b;
+    --pkr-button: #20ca2e;
 }
 
 [data-theme="light"] {
@@ -37,6 +38,10 @@ html, body {
     letter-spacing: 1px;
 }
 
+.btn-gw {
+    background: var(--pkr-button);
+}
+
 .navbar{
     background: var(--pkr-navbar-grad);
     backdrop-filter: blur(6px);
@@ -52,6 +57,11 @@ html, body {
     height: 2px;
     background: linear-gradient(90deg, transparent, var(--pkr-accent), transparent);
     opacity: .6;
+}
+
+.newsletter {
+    background: linear-gradient(135deg, rgba(34, 238, 78, 0.08), rgba(239,68,68,.06));
+    border: 1px dashed var(--pkr-border-soft)
 }
 
 .card {
@@ -118,6 +128,12 @@ html, body {
 .hero-content {
     position: relative;
     z-index: 2
+}
+
+.tag {
+    background: rgba(34,211,238,.12);
+    color:var(--pkr-accent);
+    border:1px solid rgba(32,202,46,0.35);
 }
 
 .glow {

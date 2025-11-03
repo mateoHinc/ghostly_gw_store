@@ -35,6 +35,13 @@
               class="rounded w-100 hover-rise"
             />
           </div>
+          <div class="col-6">
+            <img
+              src="../assets/images/ghosts2.jpg"
+              alt="Sudadera urbana"
+              class="rounded w-100 hover-rise"
+            />
+          </div>
         </div>
       </div>
     </div>
