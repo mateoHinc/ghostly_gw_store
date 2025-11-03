@@ -35,7 +35,7 @@
         <div class="col-lg-6">
           <div class="p-3 card hover-rise">
             <img
-              src="https://images.unsplash.com/photo-1518602164578-cd0074062767?q=80&w=1600&auto=format&fit=crop"
+              src="../assets/images/photoHero.jpg"
               alt="XXXXXXXYYYYYYY"
               class="rounded"
             />

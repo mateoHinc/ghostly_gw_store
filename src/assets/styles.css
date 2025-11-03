@@ -103,7 +103,7 @@ html, body {
     overflow: hidden;
     background: radial-gradient(80rem 40rem at 20% 10%, rgba(43,211,238,.12), transparent 60%),
     radial-gradient(60rem 30rem at 80% 20%, rgba(239,68,68,.10), transparent 60%),
-    url('https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1600&auto=format&fit=crop');
+    url('/src/assets/images/photoHero2.jpg');
     background-size: cover;
     background-position: center;
 }
