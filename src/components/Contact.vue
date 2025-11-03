@@ -62,10 +62,7 @@
             <i class="bi bi-tiktok">@ghostly</i>
           </p>
           <div class="rounded overflow-hidden ratio ratio-4x3">
-            <img
-              src="https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop"
-              alt="Map stylized"
-            />
+            <img src="../assets/images/ghosts.jpg" alt="Map stylized" />
           </div>
         </div>
       </div>
