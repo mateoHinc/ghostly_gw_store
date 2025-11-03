@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="py-5 container">
+  <section id="aboutUs" class="py-5 container">
     <div class="align-items-center row g-4">
       <div class="col-lg-6">
         <h2 class="section-title display-6">Made to move</h2>
@@ -30,7 +30,7 @@
         <div class="row g-3">
           <div class="col-6">
             <img
-              src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop"
+              src="../assets/images/miniatureGhostly.jpg"
               alt="Sudadera urbana"
               class="rounded w-100 hover-rise"
             />
