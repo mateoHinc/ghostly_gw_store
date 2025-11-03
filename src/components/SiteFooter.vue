@@ -28,7 +28,7 @@ import { ref, onMounted } from "vue";
 const props = defineProps({ theme: String });
 const year = ref("");
 onMounted(() => {
-  year.value = String(new Date().getFullYear);
+  year.value = String(new Date().getFullYear());
 });
 </script>
 

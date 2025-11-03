@@ -18,6 +18,7 @@
     <About :theme="theme" />
     <Newsletter :theme="theme" v-model:email="email" @subscribe="subscribe" />
     <Contact :theme="theme" />
+    <SiteFooter :theme="theme" />
   </div>
 </template>
 
@@ -31,6 +32,7 @@ import ProductsSection from "./components/ProductsSection.vue";
 import About from "./components/About.vue";
 import Newsletter from "./components/Newsletter.vue";
 import Contact from "./components/Contact.vue";
+import SiteFooter from "./components/SiteFooter.vue";
 
 const { theme, toggleTheme } = useTheme();
 
