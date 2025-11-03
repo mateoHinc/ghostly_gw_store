@@ -28,7 +28,7 @@
               "
             >
               <i class="bi bi-lightning"></i>
-              Why Ghost Warriors Clothes?
+              Why Ghostly_GW Clothes?
             </a>
           </div>
         </div>

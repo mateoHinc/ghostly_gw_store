@@ -6,7 +6,7 @@
         class="d-flex align-items-center gap-2 text-uppercase navbar-brand fw-bold"
       >
         <i class="text-info bi bi-lightning-charge-fill"></i>
-        <span class="brand-title fs-3">Ghost Warriors Clothes</span>
+        <span class="brand-title fs-3">Ghostly_GW Clothes</span>
       </a>
       <button
         class="navbar-toggler"
