@@ -42,6 +42,19 @@ html, body {
     background: var(--pkr-button);
 }
 
+.btn-outline-info {
+    color: var(--pkr-button);
+    border-color: var(--pkr-button);
+}
+
+.btn-outline-info:hover,
+.btn-outline-info:focus,
+.btn-outline-info:active {
+    background-color: var(--pkr-button);
+    color: #FFF;
+    border-color: var(--pkr-button);
+}
+
 .navbar{
     background: var(--pkr-navbar-grad);
     backdrop-filter: blur(6px);
