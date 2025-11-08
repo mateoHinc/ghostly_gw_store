@@ -4,7 +4,7 @@
       <div class="col-lg-6">
         <h2 class="section-title display-6">Made to move</h2>
         <p :class="theme === 'dark' ? 'text-white-50' : 'text-muted'">
-          Every Ghostly_GW garment is tested by parkour and freerunning
+          Every Ghostly.GW garment is tested by parkour and freerunning
           athletes. We use reinforced seams, quick-drying fabrics, and cuts that
           don't restrict movement.
         </p>
@@ -13,16 +13,15 @@
           :class="theme === 'dark' ? 'text-white-50' : 'text-muted'"
         >
           <li class="mb-2">
-            <i class="text-info bi bi-check2-circle"></i> Breathable and
+            <i class="icon-gw bi bi-check2-circle"></i> Breathable and
             tear-resistant fabrics
           </li>
           <li class="mb-2">
-            <i class="text-info bi bi-check2-circle"></i> Breathable and
-            tear-resistant fabrics
+            <i class="icon-gw bi bi-check2-circle"></i> High-quality screen
+            printing
           </li>
           <li class="mb-2">
-            <i class="text-info bi bi-check2-circle"></i> Breathable and
-            tear-resistant fabrics
+            <i class="icon-gw bi bi-check2-circle"></i> Printing service
           </li>
         </ul>
       </div>

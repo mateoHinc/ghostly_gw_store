@@ -6,7 +6,7 @@
       <span
         class="small"
         :class="theme === 'dark' ? 'text-white-50' : 'text-muted'"
-        >© {{ year }} Ghostly_GW Clothes. All rights reserved.</span
+        >© {{ year }} Ghostly.GW Clothes. All rights reserved.</span
       >
       <div class="d-flex gap-3">
         <a href="#" :class="theme === 'dark' ? 'text-white-50' : 'text-dark'"
