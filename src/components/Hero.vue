@@ -5,7 +5,8 @@
         <div class="col-lg-6">
           <span class="mb-3 text-uppercase badge tag">Drop • Limited</span>
           <h1 class="display-3 fw-bold glow brand-title">
-            Urban clothing designed to make an impact
+            Clothes with which ghosts move over the enormous structures of this
+            avenue
           </h1>
           <p
             class="lead"
