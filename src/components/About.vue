@@ -30,7 +30,7 @@
         <div class="row g-3">
           <div class="col-6">
             <img
-              src="../assets/images/ghosts2.jpg"
+              src="../assets/images/ghostly-gw.jpg"
               alt="Sudadera urbana"
               class="rounded w-100 hover-rise"
             />

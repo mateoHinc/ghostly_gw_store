@@ -39,7 +39,7 @@ const { theme, toggleTheme } = useTheme();
 const cartCount = ref(0);
 const email = ref("");
 const selectedCategory = ref("All");
-const categories = ["All", "T-shirts", "sweatshirts", "caps"];
+const categories = ["All", "T-shirts", "Sweatshirts", "Caps"];
 
 const products = ref(productsData);
 
