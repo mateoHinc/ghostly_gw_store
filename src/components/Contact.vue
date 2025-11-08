@@ -43,24 +43,28 @@
       <div class="col-lg-4">
         <div class="p-4 h-100 card">
           <h5 class="mb-3">Visit us</h5>
-          <p
+          <a
             class="mb-1"
             :class="theme === 'dark' ? 'text-white-50' : 'text-muted'"
           >
-            <i class="bi bi-geo-alt">Belén, Medellin</i>
-          </p>
-          <p
+            <i class="bi bi-geo-alt"> Belén, Medellin // Colombia</i>
+          </a>
+          <a
+            href="https://www.instagram.com/ghostly.gw/"
+            target="_blank"
             class="mb-1"
             :class="theme === 'dark' ? 'text-white-50' : 'text-muted'"
           >
-            <i class="bi bi-instagram">@ghostly</i>
-          </p>
-          <p
+            <i class="bi bi-instagram"> @ghostly.gw</i>
+          </a>
+          <a
+            href="https://www.instagram.com/ghostwarriorspk/"
+            target="_blank"
             class="mb-1"
             :class="theme === 'dark' ? 'text-white-50' : 'text-muted'"
           >
-            <i class="bi bi-tiktok">@ghostly</i>
-          </p>
+            <i class="bi bi-instagram"> @ghostwarriorspk</i>
+          </a>
           <div class="rounded overflow-hidden ratio ratio-4x3">
             <img src="../assets/images/ghosts.jpg" alt="Map stylized" />
           </div>

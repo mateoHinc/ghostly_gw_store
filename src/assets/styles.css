@@ -160,3 +160,7 @@ html, body {
 .footer {
     border-top: 1px solid var(--pkr-border)
 }
+
+a {
+    text-decoration: none;
+}
