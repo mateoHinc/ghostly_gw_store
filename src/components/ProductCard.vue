@@ -15,7 +15,7 @@
         {{ product.desc }}
       </p>
       <div class="d-flex align-items-center justify-content-between mt-auto">
-        <span class="fw-bold">$ {{ product.price }}</span>
+        <span class="fw-bold">{{ formatUSD(product.price) }}</span>
         <button
           class="btn-outline-info btn btn-sm"
           @click="$emit('add-to-cart', product)"
@@ -28,6 +28,7 @@
 </template>
 
 <script setup>
+import { formatUSD } from "@/utils/formatPrice";
 const props = defineProps({ product: Object, theme: String });
 </script>
 
