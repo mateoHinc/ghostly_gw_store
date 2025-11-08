@@ -42,6 +42,10 @@ html, body {
     background: var(--pkr-button);
 }
 
+.icon-gw {
+    color: var(--pkr-accent);
+}
+
 .btn-outline-info {
     color: var(--pkr-button);
     border-color: var(--pkr-button);
